@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.fishburgergroup.magicmc.Main"
+    ],
+    "client": [
+      "com.fishburgergroup.magicmc.MainClient"
     ]
   },
   "mixins": [

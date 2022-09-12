@@ -11,6 +11,6 @@ public class SpellEntityRenderer extends MobEntityRenderer<SpellEntity, SpellEnt
 
     @Override
     public Identifier getTexture(SpellEntity entity) {
-        return new Identifier("magicmc", "textures/entity/Spell/Spell.png");
+        return new Identifier("magicmc", "textures/entity/spell/spell.png");
     }
 }
