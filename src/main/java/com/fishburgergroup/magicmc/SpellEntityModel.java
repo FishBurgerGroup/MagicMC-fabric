@@ -22,6 +22,7 @@ public class SpellEntityModel extends EntityModel<SpellEntity> {
     @Override
     public void render(MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float alpha) {
         // 把模型变小
+        base.addCuboid(-3.0F, -3.0F, -3.0F, 6.0F, 6.0F, 6.0F);
         matrices.translate(0, 1.125, 0);
 
         // 渲染方块实体
